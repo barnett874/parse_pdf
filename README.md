@@ -22,8 +22,9 @@
 	- subprocess：用于调用其他Python脚本（如pdftomd\.py）。
 
 可以通过以下命令安装所需的依赖库：
-```
-1. pip install openai
+```{bash}
+pip install openai
+pip install pdftotext
 ```
 #### 项目功能
 
