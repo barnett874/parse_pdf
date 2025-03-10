@@ -1,0 +1,2 @@
+B73 v2	GRMZM5G805627	CRY1-9	chr9.S_93812340	moisture content	The genetic architecture of the dynamic changes in grain moisture in maize
+B73 v2	GRMZM2G137211	GAR2	chr7.S_132808190	AUDDC	The genetic architecture of the dynamic changes in grain moisture in maize

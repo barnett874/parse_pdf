@@ -1,0 +1,2 @@
+Zm00001d047799	ZmHSP5	heat shock 70 kDa protein 5	CAG→TAG	KMC	Time-resolved multiomics analysis of the genetic regulation of maize kernel moisture
+Zm00001d035920	ZmBPACD11	RNA binding protein	Affx-291435855, Affx-291445022	KDR	Time-resolved multiomics analysis of the genetic regulation of maize kernel moisture

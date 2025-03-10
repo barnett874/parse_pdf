@@ -1,0 +1,2 @@
+B73 RefGen_v4	Zm00001d020615	polygalacturonase (PG)	S7_125165191, S7_125166053, S7_125166495	CDR50–55, KDR45–50	Genome-Wide Association Study Reveals the Genetic Basis of Kernel and Cob Moisture Changes in Maize at Physiological Maturity Stage  
+B73 RefGen_v4	Zm00001d020623	copper transporter 5.1 (COPT5.1)	-	-	Genome-Wide Association Study Reveals the Genetic Basis of Kernel and Cob Moisture Changes in Maize at Physiological Maturity Stage
