@@ -3,7 +3,7 @@
 ### 使用指南
 
 #### 项目结构
-
+```{plaintxt}
 1. your\_project/
 2. │
 3. ├── deepseek\_parse\.py       \# 解析DeepSeek V3 API的Python脚本
@@ -13,7 +13,7 @@
 7. ├── markdown/              \# 存放转化后的Markdown文件
 8. ├── input/                   \# 存放原始pdf文件
 9. └── answer/                 \# 存放DeepSeek V3 API返回结果的文件夹
-
+```
 #### 依赖
 
 1. __Python 3\.x__：本项目依赖Python 3\.x版本进行运行。
@@ -22,9 +22,9 @@
 	- subprocess：用于调用其他Python脚本（如pdftomd\.py）。
 
 可以通过以下命令安装所需的依赖库：
-
+```
 1. pip install openai
-
+```
 #### 项目功能
 
 本项目包括两个主要任务：
