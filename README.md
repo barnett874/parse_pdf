@@ -41,13 +41,12 @@ pip install pdftotext
 	- 访问SiliconFlow并获取API密钥。
 	- 将API密钥保存到apikey\.txt文件中。文件中只需要包含API密钥本身。
 2. __安装依赖__：
-	- 确保你的Python环境中已安装openai库：
-3. pip install openai
+	- 确保你的Python环境中已安装openai库.
 4. __准备输入文件__：
 	- 将需要转换的PDF文件放入input文件夹中。
 	- PDF文件将被process\_pdfs\.py脚本自动处理。
 5. __使用process\_pdfs\.py脚本__：
-	- 运行process\_pdfs\.py脚本，首先将PDF文件转换为Markdown文件，然后调用DeepSeek V3 API处理每个Markdown文件，并保存结果：
+	- 运行process\_pdfs\.py脚本，首先将PDF文件转换为Markdown文件，然后调用DeepSeek V3 API处理每个Markdown文件，并保存结果。
 6. python process\_pdfs\.py
 
 #### 运行流程
@@ -62,7 +61,7 @@ pip install pdftotext
 #### 详细步骤
 
 1. __运行process\_pdfs\.py脚本__： 这个脚本会自动执行以下操作：
-	- 扫描当前目录下所有\.pdf文件。
+	- 扫描当前input目录下所有\.pdf文件。
 	- 使用pdftomd\.py将每个PDF文件转换为Markdown文件，保存到markdown文件夹中。
 	- 对每个Markdown文件，使用deepseek\_parse\.py脚本调用DeepSeek V3 API，并将结果保存在answer文件夹中。
 
@@ -91,9 +90,13 @@ pip install pdftotext
 #### 示例命令
 
 1. __转换PDF文件并分析Markdown文件__：
-2. python process\_pdfs\.py
-3. __使用DeepSeek V3 API解析Markdown文件__：每个Markdown文件将被传递到DeepSeek V3 API，API将返回解析的内容并保存为纯文本文件。
-4. python deepseek\_parse\.py \-\-api\_key\_file "apikey\.txt" \-\-input\_file "markdown/example\.md" \-\-output\_file "answer/example\.txt"
+```
+python process\_pdfs\.py
+```
+2. __使用DeepSeek V3 API解析Markdown文件__：每个Markdown文件将被传递到DeepSeek V3 API，API将返回解析的内容并保存为纯文本文件。
+```
+python deepseek\_parse\.py \-\-api\_key\_file "apikey\.txt" \-\-input\_file "markdown/example\.md" \-\-output\_file "answer/example\.txt"
+```
 
 #### 注意事项
 
